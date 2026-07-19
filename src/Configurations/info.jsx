@@ -10,11 +10,13 @@ const info = {
 
   phone: "+91 7392886313",
 
+  whatsapp: "https://wa.me/917392886313?text=Hi%20Aaditya,%20I%20want%20to%20hire%20you%20for%20a%20project.",
+
   location: "Uttar Pradesh, India",
 
-  github: "https://github.com/YOUR_GITHUB_USERNAME",
+  github: "https://github.com/aaditya9984059",
 
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME",
+  linkedin: "https://www.linkedin.com/in/aaditya-yadav-687b2a3aa?utm_source=share_via&utm_content=profile&utm_medium=member_android",
 
   resume: "/resume.pdf",
 

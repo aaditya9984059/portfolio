@@ -2,6 +2,7 @@ import { ArrowRight, Download, } from "lucide-react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import info from "../Configurations/info";
+import myphoto from "../assets/myphoto.jpeg";
 
 function Hero() {
   return (
@@ -40,10 +41,14 @@ function Hero() {
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
-            <button className="flex items-center justify-center gap-2 rounded-xl bg-sky-500 px-6 py-3 hover:bg-sky-600 transition">
+            <a 
+              className="flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3 hover:border-sky-400 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={info.whatsapp}
+            >
               Hire Me
-              <ArrowRight size={18} />
-            </button>
+            </a>
 
             <button className="flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3 hover:border-sky-400 transition">
               Resume
@@ -56,14 +61,18 @@ function Hero() {
           <div className="mt-10 flex gap-5">
 
             <a
-              href="#"
+              href={info.github}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-white/10 p-3 rounded-full hover:bg-sky-500 transition"
             >
               <FaSquareGithub size={18} />
             </a>
 
             <a
-              href="#"
+              href={info.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-white/10 p-3 rounded-full hover:bg-sky-500 transition"
             >
               <FaLinkedin size={18} />
@@ -86,7 +95,7 @@ function Hero() {
             <div className="absolute inset-0 rounded-full bg-sky-500 blur-3xl opacity-30"></div>
 
             <img
-              src="https://i.pravatar.cc/450"
+              src={myphoto}
               alt="profile"
               className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-sky-500"
             />
