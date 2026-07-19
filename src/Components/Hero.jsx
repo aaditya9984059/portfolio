@@ -23,7 +23,7 @@ function Hero() {
           transition={{ duration: .8 }}
         >
           <p className="text-sky-400 text-lg mb-3 mt-20">
-            👋 Hello, I'm
+            Hello, I'm
           </p>
 
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
@@ -41,7 +41,7 @@ function Hero() {
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
-            <a 
+            <a
               className="flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3 hover:border-sky-400 transition"
               target="_blank"
               rel="noopener noreferrer"
@@ -92,7 +92,7 @@ function Hero() {
 
           <div className="relative">
 
-            <div className="absolute inset-0 rounded-full bg-sky-500 blur-3xl opacity-30"></div>
+            <div className="absolute inset-0 rounded-full bg-sky-500 blur-3xl opacity-80"></div>
 
             <img
               src={myphoto}
